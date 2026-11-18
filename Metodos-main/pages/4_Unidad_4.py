@@ -48,7 +48,7 @@ st.markdown(f"""
 <p class="unidad-intro" style="margin-bottom: 28px;"> 
     Entonces el sistema de ecuaciones lineales Ax=b se puede resolver en dos fases:
     </p>
-    < div class ="intro-center-box">
+    <div class ="intro-center-box">
 <p class="unidad-intro" style="margin-bottom: 28px;">
     a) Lv=b.
 <p class="unidad-intro" style="margin-bottom: 28px;">    
