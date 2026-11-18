@@ -42,15 +42,18 @@ st.markdown(f"""
 <div class="unidad-tag">Unidad 4.</div>
 <div class="unidad-titulo">Factorización LU</div>
 <div class="intro-center-box">
-    <p class="intro">Si tenemos una matriz A entonces esta matriz se fuede representar de la sigueitne manera. A= LU, donde L es una matriz triangular inferior y U una matriz triangular superior. Entonces el sistema de ecuaciones lineales Ax=b 
+    <p class="intro">Si tenemos una matriz A entonces esta matriz se puede representar de la siguiente manera. A= LU, donde L es una matriz triangular inferior y U una matriz triangular superior.
+    <p>
+    <div class="diagrama-box"><img src ="{img_lu_gen}" alt= "Diagrama Factorización A=L*U"></div>
 <p class="unidad-intro" style="margin-bottom: 28px;"> 
-    Se puede resolver en dos fases</p>
+    Entonces el sistema de ecuaciones lineales Ax=b se puede resolver en dos fases:
+    </p>
+    < div class ="into-center-box>
 <p class="unidad-intro" style="margin-bottom: 28px;">
     a) Lv=b.
 <p class="unidad-intro" style="margin-bottom: 28px;">    
     b) Ux=v
 </div>
-<div class="diagrama-box"><img src="{img_lu_gen}" alt="Diagrama Factorización A = L * U"></div>
 <div class="intro-center-box" style="margin-bottom: 28px;">
 <p class="unidad-intro" style="margin-bottom: 28px;">
  <p class="intro">Resolvemos primero la ecuación a) y despues la ecuación b).</p>
